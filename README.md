@@ -1,7 +1,7 @@
 # SimpleSort Bookmarks
 
-Do you need to keep your bookmark library sorted so you can find faster your
-bookmarks?
+Do you need to keep your Firefox bookmark library sorted so you can find your
+bookmarks faster?
 Me too, so I made this addon.
 
 I also need to avoid to sort the "ToRead" folder I use for short lived bookmarks.
