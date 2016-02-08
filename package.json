@@ -25,6 +25,26 @@
             "value": true
         },
         {
+            "title": "Sort by",
+            "name": "sortBy",
+            "type": "menulist",
+            "value": 0,
+            "options": [
+                {
+                    "value": "0",
+                    "label": "Title"
+                },
+                {
+                    "value": "1",
+                    "label": "URL"
+                },
+                {
+                    "value": "2",
+                    "label": "Date"
+                }
+            ]
+        },
+        {
             "title": "Add button to toolbar",
             "description": "Add a button to access the advanced options in the toolbar.\nThe button can also be moved in the menu using the Firerox's 'Customize' feature",
             "type": "bool",
