@@ -1,4 +1,4 @@
-var sorter = require("./bookmarkSorter");
+var sorter = require("lib/bookmarkSorter");
 
 var {
     Cc, Ci
