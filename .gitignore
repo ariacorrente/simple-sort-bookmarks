@@ -1,4 +1,8 @@
 # Folder containing data for addons.mozilla.org
 amo
 
+# Built package
 simple-sort-bookmarks.xpi
+
+# Kdevelop files
+*.kdev4
