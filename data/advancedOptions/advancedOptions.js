@@ -50,6 +50,18 @@ var elOverlay = byId("overlay");
 var anchorBaseSettings = byId("anchorBaseSettings");
 
 /*
+Remove all childs of a node this way is better then using:
+    targetNode.innerHTML = "";
+for both security and performance reasons.
+Advice from an AMO reviwer, for more info search "innerHTML vs removeChild".
+ */
+function removeAllChilds(targetNode) {
+    while (targetNode.firstChild) {
+        targetNode.removeChild(targetNode.firstChild);
+    }
+}
+
+/*
 Toggle the visibility of the passed element as popup dialog.
 */
 function displayPopupElement(element, visible) {
@@ -208,7 +220,7 @@ function addFolderToElBlacklist(folderId, folderTitle) {
     li.appendChild(elPath);
 
     if (blacklistedFolders.length === 1) {
-        elBlacklistedFolders.innerHTML = "";
+        removeAllChilds(elBlacklistedFolders);
     }
     elBlacklistedFolders.appendChild(li);
 
@@ -221,8 +233,10 @@ called to write "The list is empty" in gray.
 */
 function displayEmptyListMessage() {
     var emptyMessage;
+    var emptyText;
     emptyMessage = document.createElement("span");
-    emptyMessage.innerHTML = "The list is empty";
+    emptyText = document.createTextNode("The list is empty"),
+    emptyMessage.appendChild(emptyText);
     emptyMessage.style.color = "gray";
     elBlacklistedFolders.appendChild(emptyMessage);
 }
@@ -288,7 +302,7 @@ anchorBaseSettings.addEventListener("click", function(event) {
 self.port.on("loadBookmarks", function (data) {
     allFolders = data.bookmarks;
     var ul = listChilds(allFolders);
-    elAvailableFolders.innerHTML = "";
+    removeAllChilds(elAvailableFolders);
     elAvailableFolders.appendChild(ul);
 });
 
