@@ -1,0 +1,14 @@
+# Files and folders not to be packaged in the xpi
+
+# Git stuff
+.git*
+
+# Various development stuff
+dev
+amo
+.jshintrc
+*.kdev4
+
+# Generated xpi packages and tests
+*.xpi
+test
