@@ -2,7 +2,7 @@
 amo
 
 # Built package
-simple-sort-bookmarks.xpi
+*.xpi
 
 # Kdevelop files
 *.kdev4
