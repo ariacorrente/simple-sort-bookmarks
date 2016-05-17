@@ -5,12 +5,12 @@ bookmarks faster?
 Me too, so I made this addon.
 
 I also need to avoid to sort the "ToRead" folder I use for short lived bookmarks.
-I like to keep them sorted by time because I can easyly access the last ones. So
+I like to keep them sorted by time because I can easily access the last ones. So
 I added the blacklist.
 
 The plans for this addon is to stay as simple and clean as possible from the
-side of the user but also from the side of the developer. This means not too
-many options and avoid to add too much features.
+side of the user, but also from the side of the developer. This means not adding
+too many options and features.
 
 ## Getting started
 
