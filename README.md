@@ -53,5 +53,6 @@ actions untill the end of time.
 
 ## Contacts
 
-[SimpleSort Bookmarks GitHub repository](https://github.com/ariacorrente/simple-sort-bookmarks) .
+[SimpleSort Bookmarks GitHub repository](https://github.com/ariacorrente/simple-sort-bookmarks)
 
+[SimpleSort Bookmarks on AMO](https://addons.mozilla.org/en-US/firefox/addon/simplesort-bookmarks)
