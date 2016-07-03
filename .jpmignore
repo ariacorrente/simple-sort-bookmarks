@@ -12,3 +12,6 @@ amo
 # Generated xpi packages and tests
 *.xpi
 test
+
+# Ignore myself
+.jpmignore
