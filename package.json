@@ -46,6 +46,13 @@
             ]
         },
         {
+        "title": "Skip root folder",
+        "description": "Skip sorting the bookmarks root folder, child folders will still be sorted.",
+        "type": "bool",
+        "name": "mustSkipRootFolder",
+        "value": false
+        },
+        {
             "title": "Add button to toolbar",
             "description": "Add a button to access the advanced options in the toolbar.\nThe button can also be moved in the menu using the Firerox's 'Customize' feature",
             "type": "bool",
