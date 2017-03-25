@@ -47,7 +47,7 @@
         },
         {
         "title": "Skip root folder",
-        "description": "Skip sorting the bookmarks root folder, child folders will still be sorted.",
+        "description": "Skip sorting the root folder of the bookmarks library.\nChild folders will still be sorted.",
         "type": "bool",
         "name": "mustSkipRootFolder",
         "value": false
